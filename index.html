@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 1200px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content {
+            flex: 2;
+            padding: 40px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #f4f0fa;
+            padding: 40px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            margin-bottom: 20px;
+            color: #5a189a;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            border-bottom: 2px solid #e0aaff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #7b2cbf;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #7b2cbf;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .profile,
+        .experience,
+        .education,
+        .skills {
+            margin-bottom: 40px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .skills li {
+            background-color: #e0aaff;
+            color: #fff;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        .contact-info {
+            margin-bottom: 40px;
+        }
+
+        .photo {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #e0aaff;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #7b2cbf;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .links a {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .position {
+            font-size: 18px;
+            font-weight: 600;
+            color: #9d4edd;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .sidebar h2 {
+            color: #7b2cbf;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .photo {
+                margin: 0 auto 20px;
+            }
+
+            .sidebar {
+                text-align: center;
+            }
+
+            .main-content,
+            .sidebar {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="photo.png" alt="Фото" class="photo">
+
+            <div class="education">
+                <h2>Образование</h2>
+                <div class="edu-item">
+                    <p class="position"><strong>Магистратура, ВШЭ</strong></p>
+                    <p><strong>Машинное обучение и анализ данных</strong> (JetBrains, Yandex, VK, ШАД), стал
+                        амбассадором архитектуры Transformers</p>
+                </div>
+                <div class="edu-item">
+                    <p class="position"><strong>Бакалавриат, СПбПУ</strong></p>
+                    <p><strong>Прикладная математика и механика</strong>, защитил диплом по нейросетевому контроллеру
+                        для
+                        управления автомобилем</p>
+                </div>
+            </div>
+
+            <div class="skills">
+                <h2>Навыки</h2>
+                <h3>Личные</h3>
+                <ul>
+                    <li>Управление проектами</li>
+                    <li>Стратегическое мышление</li>
+                    <li>Лидерство</li>
+                    <li>Работа в команде</li>
+                    <li>Обучение и наставничество</li>
+                    <li>Публичные выступления</li>
+                    <li>Коммуникационные навыки</li>
+                </ul>
+
+                <h3>Технические</h3>
+                <h4>Машинное обучение и ИИ</h4>
+                <ul>
+                    <li>Stable Diffusion, GPT</li>
+                    <li>Machine Learning, Data Science</li>
+                    <li>NLP, CV, GDL, RecSys, RL</li>
+                    <li>Transformers, CNN, RNN, etc.</li>
+                </ul>
+                <h4>Языки программирования</h4>
+                <ul>
+                    <li>Python, C#</li>
+                    <li>Bash, SQL</li>
+                </ul>
+
+                <h4>Фреймворки и библиотеки</h4>
+                <ul>
+                    <li>PyTorch, PyTorch Lightning</li>
+                    <li>Diffusers, Transformers, vLLM</li>
+                    <li>NumPy, OpenCV, Scikit-Learn, Pandas, Albumentations</li>
+                    <li>FastAPI, Pydantic, AsyncIO</li>
+                </ul>
+
+                <h4>Технологии и инструменты</h4>
+                <ul>
+                    <li>Linux, Docker, Kubernetes, RabbitMQ</li>
+                    <li>Git, GitLab</li>
+                    <li>ClickUp, Jira</li>
+                    <li>Notion, Confluence</li>
+                    <li>Airtable, Miro</li>
+                </ul>
+            </div>
+
+            <div class="skills">
+                <h2>Интересы</h2>
+                <p class="position"><strong>Game Development</strong></p>
+                <p class="position"><strong>AI Art</strong></p>
+                <p class="position"><strong>Filmmaking</strong></p>
+            </div>
+
+            <div class="skills">
+                <h2>Языки</h2>
+                <p class="position"><strong>English B2</strong></p>
+            </div>
+
+            <div class="links">
+                <h2>Ссылки</h2>
+                <a href="https://stepik.org/users/2119014">Stepik</a>
+                <a href="https://github.com/denisleonov">GitHub</a>
+                <a href="https://www.kaggle.com/denisleonov">Kaggle</a>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="contact-info">
+                <h1>AI Architect | Tech Leader | Machine Learning Expert</h1>
+                <p><strong>Telegram: @den_is_lion</strong></p>
+                <p>Email: denissleonovv@gmail.com</p>
+                <p>Телефон: +7 (995) 848-20-45</p>
+            </div>
+
+            <div class="profile">
+                <h2>Профессиональный профиль</h2>
+                <p><strong>Технический лидер и архитектор AI с 6-летним опытом</strong> реализации
+                    AI/ML-решений, включая продукт Phygital+ и отмеченные наградами проекты.
+                    Специализируюсь на <strong>генеративном AI, NLP, GDL и архитектуре ML-систем</strong>, руковожу
+                    проектами от идеи до масштабируемого продакшена.
+                    <br><br> Моя страсть — инновационные продукты, которые несут
+                    в себе ценность для людей, на стыке творчества и технологий.
+                </p>
+            </div>
+
+            <div class="achievements">
+                <h2>Достижения</h2>
+                <ul>
+                    <li><strong>Создал <a href="https://phygital.plus/">Phygital+</a></strong> — первый на рынке нодовый
+                        AI инструмент, сочетающий в себе более <strong>30 нейронных сетей</strong>
+                    </li>
+                    <li>Участвовал в создании MVP <strong>The Uncreative Agency</strong> — креативные LLM боты (<a
+                            href="https://www.ddb.com/news/is-ai-really-uncreative-ddb-launches-advertising-tool-the-uncreative-agency/">ссылка</a>)
+                    </li>
+                    <li>Разработал <strong>one-shot deepfake</strong> для проекта, отмеченного <strong>Cannes Gold
+                            Lion</strong>,
+                        собрав
+                        более 51 млн просмотров (<a
+                            href="https://www.telekom.com/en/media/media-information/archive/cannes-lions-four-lions-for-sharewithcare-a-message-from-ella-1068516">ссылка</a>)
+                    </li>
+                    <li>Объединил изображения и трансформеры для задачи <strong>Image Captioning</strong> задолго до
+                        выхода DALL-E, CLIP и ViT (<a href="https://github.com/denisleonov/image_captioning">GitHub</a>)
+                    </li>
+                    <li>Участвовал в разработке <strong>умного механического протеза</strong> для детей с инвалидностью,
+                        повысив
+                        функциональные возможности протеза</li>
+                    <li>Провел более <strong>20 докладов по AI</strong></li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <h2>Опыт — 6 лет 4 месяца</h2>
+
+                <div class="job">
+                    <h3>AI Architect & Lead ML Engineer | MY.GAMES</h3>
+                    <p class="date"><i>Март 2023 — настоящее время</i>
+                    </p>
+                    <ul>
+                        <li><strong>Возглавляю технологический трек AI-трансформации компании </strong>
+                        <li><strong>Создаю и реализую стратегию AI</strong>, соответствующую мировым трендам и
+                            потребностям внутренних
+                            команд</li>
+                        <li><strong>Разработал и внедрил продукт для генерации изображений</strong> на базе Stable
+                            Diffusion, завершив полный цикл от концепции до запуска
+                        </li>
+                        <li><strong>Разрабатываю MVP LLM-ассистента</strong> на базе Qwen 2 и
+                            LLaMA с
+                            RAG и LoRA для кастомизации под задачи внутренних команд
+                        </li>
+                        <li><strong>Оптимизирую инфраструктуру и микросервисы</strong> под высокие нагрузки</li>
+                        <li><strong>Делюсь экспертизой</strong> в виде докладов, гайдов и консультаций для внутренних
+                            команд по внедрению
+                            AI-решений</li>
+                        <li><strong>Формирую технический бэклог</strong></li>
+                        <li><strong>Веду коммуникацию</strong> с внутренними пользователями</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>CTO & Lead Data Scientist & Project Manager | Phygitalism</h3>
+                    <p class="date"><i>Август 2020 — Ноябрь 2022</i></p>
+                    <ul>
+                        <li><strong>Возглавил создание Phygital+</strong>, платформы для генерации
+                            мультимедийного
+                            контента с использованием нейросетей</li>
+                        <li><strong>Руководил кросс-функциональной командой</strong>, внедрил Scrum и ClickUp и повысил
+                            эффективность работы</li>
+                        <li><strong>Разработал стратегию развития и масштабирования</strong> продукта, анализировал
+                            рынок и конкурентов
+                        </li>
+                        <li><strong>Реализовывал ML сервисы</strong> на PyTorch и Backend + DevOps решения</li>
+                        <li><strong>Проводил эксперименты</strong> в Image/Video Upscale, Image/Text/3D Generation,
+                            Deepfake, Style Transfer и
+                            других направлениях
+                        </li>
+                        <li><strong>Проводил поиск и найм</strong> в команду разработки</li>
+                        <li><strong>Обучил 3 стажеров</strong> до Junior+ DS позиций</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Data Scientist | JetBrains Research</h3>
+                    <p class="date"><i>Февраль 2020 — Сентябрь 2020</i></p>
+                    <ul>
+                        <li><strong>Занимался постановкой задач и координацией работы</strong> команды для исследований
+                            и проведения экспериментов
+                            завершения</li>
+                        <li><strong>Реализовывал собственные идеи и статьи</strong> для новых архитектур</li>
+                        <li><strong>Проводил обучение моделей</strong></li>
+                        <li><strong>Разработал чатбот на основе Transformers</strong> со способностью генерировать текст
+                            с заданными
+                            атрибутами (<a href="https://github.com/denisleonov/pplm_chatbot">GitHub</a>)</li>
+                        <li><strong>Разработал новый подход</strong> к Image Captioning с применением архитектуры
+                            Transformers (<a href="https://github.com/denisleonov/image_captioning">GitHub</a>)</li>
+                        <li><strong>Разработал TransGAN</strong> архитектуру для CycleGAN style transfer (<a
+                                href="https://github.com/denisleonov/pytorch-CycleGAN-and-pix2pix">GitHub</a>)</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Gameplay Programmer | Saber Interactive</h3>
+                    <p class="date"><i>Апрель 2019 — Сентябрь 2019</i></p>
+                    <ul>
+                        <li><strong>Разрабатывал игровую логику</strong> на внутреннем языке (C# like)</li>
+                        <li><strong>Осуществлял интеграцию с командами</strong> анимации, аудио, геймдизайна для
+                            реализации игровых
+                            решений</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Data Analyst | Gazpromneft</h3>
+                    <p class="date"><i>Ноябрь 2018 — Февраль 2019</i></p>
+                    <ul>
+                        <li><strong>Проводил анализ и фильтрацию</strong> многомерных данных с использованием PCA, t-SNE
+                        </li>
+                        <li><strong>Обучал Lasso и Ridge Regression</strong> для выявления закономерностей и
+                            прогнозирования будущих
+                            событий</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Data Scientist & Unity Developer | Self-driving Car Startup</h3>
+                    <p class="date"><i>Сентябрь 2018 — Ноябрь 2018</i>
+                    </p>
+                    <ul>
+                        <li><strong>Разработал Unity 3D симулятор</strong> для тестирования алгоритмов автономных
+                            автомобилей</li>
+                        <li><strong>Разрабатывал алгоритмы CV</strong> для детекции и сегментации препятствий и
+                            дорожного
+                            полотна на основе видеопотока</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Python Developer | Nissan Manufacturing Rus</h3>
+                    <p class="date"><i>Июнь 2017 — Май 2018</i></p>
+                    <ul>
+                        <li><strong>Разработал CV систему</strong> для автоматического распознавания текста на
+                            VIN-табличках с
+                            использованием Python, OpenCV и Scikit-Learn</li>
+                        <li><strong>Реализовал алгоритмы управления</strong> для автономных тележек и автоматизации
+                            процессов доставки
+                            запчастей на складе</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
