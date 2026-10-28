@@ -1,0 +1,17 @@
+# macOS and Python
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+
+# Temporary files
+/tmp/
+/.cache/
+
+# Local settings
+.env
+.env.*
+!.env.example
+
+# Local working notes
+/docs/

@@ -1,0 +1,285 @@
+{
+  "updated": "2026-10-28",
+  "contact": {"email": "denissleonovv@gmail.com", "telegram": "https://t.me/den_is_lion", "github": "https://github.com/denisleonov"},
+  "employment_periods": [["2017-06","2018-05"],["2018-09","2018-11"],["2018-11","2019-02"],["2019-04","2019-09"],["2020-02","2020-09"],["2020-08","2022-11"],["2023-03","2024-12"],["2025-04","2025-06"],["2025-09","2026-10"]],
+  "en": {
+    "name": "Denis Leonov",
+    "headline": "AI Product & Technical Lead",
+    "eyebrow": "AI product leadership · Applied AI · Multimodal systems",
+    "summary": "Lead AI products from user needs and technical strategy to launch and measurable outcomes. Combine <strong>product direction, team leadership and hands-on engineering</strong> across recommender systems, generative tools and LLM agents. <strong>8+ years</strong> across software engineering, applied ML and technical leadership; teams of up to <strong>20</strong>; AI adoption across <strong>~15 departments and game studios</strong>.",
+    "summary_pdf": "Lead AI products from user needs and strategy to launch and measurable outcomes. Combine <strong>product direction, team leadership and hands-on engineering</strong> across RecSys, generative AI and LLM agents. <strong>8+ years</strong> across software engineering, applied ML and technical leadership; teams up to <strong>20</strong>; AI adoption across <strong>~15 departments/studios</strong>.",
+    "location": "Tbilisi, Georgia · Worldwide remote · Open to relocation",
+    "contract": "Employment or B2B · English B2",
+    "download": "Download CV",
+    "email_cta": "Get in touch",
+    "skip": "Skip to experience",
+    "nav": [["impact","Impact"],["expertise","Expertise"],["experience","Experience"],["multimodal","Multimodal AI"],["projects","Projects"]],
+    "impact_title": "Selected impact",
+    "metrics": [
+      {"value":"+60%","label":"Watch time","note":"A/B test vs. baseline recommendations"},
+      {"value":"+60%","label":"Artists’ workflow speed","note":"Internal generative AI tools"},
+      {"value":"−70%","label":"Localization time","note":"Translation and country-specific adaptation"},
+      {"value":"20","label":"Peak cross-functional team size","note":"ML, software, DevOps and design"}
+    ],
+    "modalities_line": "Text · Images · Video · Audio / Voice · 3D",
+    "modalities_line_label": "Multimodal experience",
+    "expertise_title": "What I bring to an AI product",
+    "expertise_pdf_title": "Core competencies",
+    "competencies": [
+      {"title":"AI product strategy & delivery","text":"User needs, product direction, technical backlog, market and competitor analysis, prototyping and MVP-to-launch delivery. Experience with internal products and client-facing B2B projects.","pdf_title":"AI product leadership","pdf":"User needs, strategy, market analysis, technical backlog, prototyping and launch."},
+      {"title":"People & organizational leadership","text":"Cross-functional teams up to 20; hiring, performance reviews, staffing decisions and resource allocation. Coordinated AI adoption across ~15 departments and studios.","pdf_title":"People leadership","pdf":"Teams up to 20; hiring, performance, staffing, resources and cross-team coordination."},
+      {"title":"AI architecture & implementation","text":"Personally develop the critical parts of the system: model research and training, retrieval and ranking, LLM/RAG applications, backend services, deployment and automated retraining.","pdf_title":"AI architecture","pdf":"RecSys, LLM/RAG, model training, backend, inference and automated retraining."},
+      {"title":"Agent systems & engineering workflows","text":"MCP tools, coordinator/specialist/verifier roles, persistent state, memory and context, Git worktrees, handoffs and verification. Shared role/Skill configurations for coding clients.","pdf_title":"AI agents","pdf":"MCP, orchestration, memory/context, persistent state, worktrees, handoffs and verification."},
+      {"title":"Evidence-based product decisions","text":"A/B tests, behavioral analytics and time-log comparisons. Evaluate external AI tools against user requirements and decide when to build an internal solution.","pdf_title":"Product decisions","pdf":"A/B tests, behavioral analytics, time-log comparisons and build-versus-buy evaluation."},
+      {"title":"International collaboration & adoption","text":"Technical discussions and tool evaluations in English with international teams, Google Cloud, AWS, Layer AI and Scenario. 20+ AI talks; trained and mentored engineers.","pdf_title":"International collaboration","pdf":"English-language technical discussions, vendor evaluations, 20+ talks and mentorship."}
+    ],
+    "experience_title": "Selected product & technical leadership",
+    "experience_note": "8 years 1 month of employment · overlaps counted once · October 2026",
+    "roles": [
+      {
+        "company":"Short-video platform · NDA","role":"Lead ML Engineer","date":"Sep 2025 — Present",
+        "context":"Personalization, analytics and production ML",
+        "outcome":"Production launch in 4 months · +60% watch time in an A/B test",
+        "bullets":[
+          "<strong>Built and launched the entire recommender system independently in 4 months.</strong> In an A/B test, watch time increased <strong>60%</strong> and video completion rate rose <strong>20 percentage points</strong> over the baseline; the duration of recommended media doubled.",
+          "Owned the full ML lifecycle: data analysis and preparation, retrieval/ranking research, training, inference, cold start, automated retraining, model versioning and promotion. Dataset snapshot: <strong>54.6M events, 396K users and 3M media items</strong>.",
+          "Created a <strong>ClickHouse MCP service and an LLM agent for analytics and dashboards</strong>. This work became the foundation of the system now used by analysts across the company. Also built semantic content search and behavioral bot/fraud detection.",
+          "Advised engineers across teams on ML/LLM solutions and introduced <strong>AI agents into ML and backend development</strong>, with task decomposition, saved context, handoffs and checks on completed work."
+        ],
+        "pdf_bullets":[
+          "<strong>Independently launched a full recommender system in 4 months.</strong> A/B results: <strong>+60% watch time, +20 pp video completion</strong> vs. baseline; recommended media duration doubled. Owned data, retrieval/ranking, training, inference and automated retraining. Snapshot: 54.6M events / 396K users / 3M items.",
+          "Built <strong>ClickHouse MCP and an analytics/dashboard agent</strong> that became the foundation of the system used by company analysts; semantic search and bot/fraud detection. Advised engineers and introduced agent workflows for ML/backend development."
+        ],
+        "stack":"Python · PyTorch · CatBoost · ClickHouse · Dragonfly · Qdrant · Docker · Kubernetes · CI/CD"
+      },
+      {
+        "company":"MY.GAMES","role":"AI Architect & Lead ML Engineer","date":"Mar 2023 — Dec 2024",
+        "context":"AI strategy and adoption across a game-development holding",
+        "outcome":"Several hundred users · +60% artists’ workflow speed · −70% localization time",
+        "bullets":[
+          "<strong>Defined AI strategy with senior management</strong>, led a <strong>5-person core AI team</strong> and coordinated adoption across <strong>~15 departments and game studios</strong>. Worked directly with artists, translators, engineers and QA to identify needs and prioritize shared and studio-specific tools.",
+          "Launched a <strong>Stable Diffusion product for several hundred internal users</strong>, improving artists’ workflow speed by <strong>60%</strong>. Personally implemented custom style training through the UI, inpainting and ControlNet.",
+          "Automated translation and country-specific text adaptation, <strong>reducing localization time by 70%</strong>. Both productivity improvements were measured through time logs over several weeks, compared with work without AI.",
+          "Developed an internal <strong>LLM assistant MVP</strong> using Qwen 2 / LLaMA, RAG and LoRA. Helped teams adopt AI through presentations, guides and technical consultations.",
+          "Led <strong>technical discussions and tool evaluations in English</strong> with international teams and Google Cloud, AWS, Layer AI and Scenario. Selected in-house pipelines on company hardware."
+        ],
+        "pdf_bullets":[
+          "<strong>Defined AI strategy with executives</strong>; led a <strong>5-person AI team</strong> and adoption across <strong>~15 departments/studios</strong>, turning user needs into shared and studio-specific tools.",
+          "Launched a Stable Diffusion product for <strong>several hundred users</strong>: <strong>+60% artists’ workflow speed</strong>. Automated translation/localization: <strong>−70% time</strong>. Measured using multi-week time logs. Implemented custom style training, inpainting and ControlNet; built a RAG/LoRA assistant MVP.",
+          "Led English-language discussions and evaluations with international teams, <strong>Google Cloud, AWS, Layer AI and Scenario</strong>; selected in-house solutions."
+        ],
+        "stack":"Stable Diffusion · ControlNet · Diffusers · Qwen / LLaMA · RAG · LoRA · Model serving"
+      },
+      {
+        "company":"Phygitalism","role":"CTO & Lead Data Scientist","date":"Aug 2020 — Nov 2022",
+        "context":"Creative AI product and client-facing B2B delivery",
+        "outcome":"Prototype → closed beta · 30+ models · Cross-functional team up to 20",
+        "bullets":[
+          "Set product direction, analyzed markets and competitors, and developed <a href=\"https://phygital.plus/\">Phygital+</a> from prototype to a <strong>closed beta with the first few dozen users</strong>: a node-based creative platform integrating <strong>30+ neural networks</strong>.",
+          "Managed a <strong>cross-functional team of up to 20</strong> across ML, software engineering, DevOps and design. Owned hiring, performance reviews, staffing decisions and resource allocation; introduced Scrum and ClickUp.",
+          "Coordinated product development and <strong>B2B projects from client brief to delivery</strong>: requirements, specifications, scope and deadlines. Built PyTorch ML services, backend and deployment infrastructure.",
+          "Led applied R&D in <strong>image/video upscaling, text/image/3D generation, deepfake and style transfer</strong>. Built a shared CV/NLP/Geometric DL knowledge base and trained <strong>3 interns</strong> who progressed to Junior+ Data Scientist roles."
+        ],
+        "pdf_bullets":[
+          "Defined product strategy and developed <a href=\"https://phygital.plus/\">Phygital+</a> from prototype to a <strong>closed beta with the first few dozen users</strong>; node-based platform with <strong>30+ neural networks</strong>.",
+          "Led a <strong>cross-functional team of up to 20</strong>; hiring, performance, staffing and resources. Managed product and <strong>B2B delivery from brief to client handover</strong>; built ML/backend infrastructure.",
+          "Led image/video/3D and generative AI R&D; introduced Scrum/ClickUp and trained <strong>3 interns to Junior+ DS</strong>."
+        ],
+        "stack":"PyTorch · Generative AI · Computer vision · Text / image / video / 3D · Backend & DevOps"
+      }
+    ],
+    "multimodal_title":"Multimodal AI, grounded in actual work",
+    "multimodal_intro":"Experience across the main content modalities, plus behavioral and structured data. The examples below distinguish production delivery from MVPs and research.",
+    "modalities":[
+      {"name":"Text","stage":"Production · R&D","text":"LLM analytics, translation/localization, RAG assistants and controlled GPT-2 generation with PPLM."},
+      {"name":"Images","stage":"Production · R&D","text":"Stable Diffusion tools, custom style training, ControlNet, inpainting and OCR; academic image-captioning work."},
+      {"name":"Video","stage":"Production · R&D","text":"4K deepfake and facial aging for an international campaign; image/video upscaling research."},
+      {"name":"Audio / Voice","stage":"R&D · MVP","text":"R&D across several projects: voice cloning, voice aging and TTS. Local voice MVP with Whisper speech recognition, Piper synthesis and a local LLM."},
+      {"name":"3D / Spatial","stage":"R&D · Simulation","text":"3D-generation experiments, Unity simulation and computer vision for autonomous driving."},
+      {"name":"Behavioral / Structured data","stage":"Production","text":"Recommendation models, fraud signals, SQL/ClickHouse analytics and model-quality analysis."}
+    ],
+    "agents_title":"AI agents as an engineering system",
+    "agents_intro":"Designed AIOS and use it in current ML work and independent MVP development.",
+    "agents_bullets":[
+      "<strong>Coordination and delivery:</strong> coordinator, specialist and verifier roles; task decomposition, backlog, handoffs and isolated Git worktrees.",
+      "<strong>State and reliability:</strong> MCP tools, versioned task state in SQLite, event logs, concurrency control, idempotency and recovery between sessions. Completing a task requires a recorded successful check.",
+      "<strong>Context and access:</strong> shared/domain/project knowledge, registered sources and role/Skill configurations generated for Claude Code, Codex and Cursor."
+    ],
+    "agents_pdf":"Designed <strong>AIOS</strong> for ML/MVP development: coordinator, specialist and verifier roles; isolated Git worktrees, task handoffs and shared context. Built MCP tools with versioned SQLite state, event logs, concurrency control, idempotency and session recovery. Role/Skill adapters for Claude Code, Codex and Cursor.",
+    "projects_title":"Independent AI products",
+    "projects_note":"Founding AI Engineer · Sole engineer · MVP development · 2026",
+    "projects":[
+      {"title":"Local-first personal AI system","text":"Own product requirements, architecture, Python backend, native macOS app and evaluation. Building persistent memory with keyword/vector retrieval, source tracking and time context; a local LLM and voice interface. Implemented typed local actions with schema validation, permissions, idempotency and execution records; background jobs with saved state.","pdf":"Sole engineer: product requirements, Python backend, native macOS app, persistent memory, hybrid retrieval, local LLM and Whisper/Piper voice. Typed actions with validation, permissions and idempotency; background jobs with saved state."},
+      {"title":"AI mathematics tutor · Confidential","text":"Own the MVP from product architecture to backend and user interface. Photo/text input, hybrid RAG with reranking, a versioned knowledge base and teaching guidebook, learner memory and personalized context. Developing answer policies for missing sources, solution assessment, review and regression checks.","pdf":"Sole engineer: architecture, backend/UI, photo/text input, hybrid RAG/reranking, versioned knowledge base and teaching guidebook, learner memory, personalized context, rules for missing sources and solution review."}
+    ],
+    "recognition_title":"Selected campaign & knowledge sharing",
+    "campaign_title":"Deutsche Telekom · A Message from Ella / Without Consent",
+    "campaign_role":"Machine Learning Engineering Lead · Campaign released 3 July 2023",
+    "campaign_text":"Developed the entire AI pipeline: extended an open-source deepfake system with facial aging and 4K output, helped with casting and worked directly with the production team.",
+    "campaign_result":"Campaign results: <strong>2 Gold Lions at Cannes Lions 2024</strong>, Webby 2024 Best Use of AI and <strong>51M+ views</strong>.",
+    "campaign_pdf":"<strong>Deutsche Telekom — A Message from Ella.</strong> Credited <a href=\"https://www.oneclub.org/awards/theoneshow/-award/52383/without-consent-a-message-from-ella/\">ML Engineering Lead</a>; full AI pipeline, facial aging and 4K deepfake, casting/production collaboration. Campaign: <a href=\"https://www.telekom.com/en/newsroom/latest-updates/media-information/2024/6/cannes-lions\">2 Gold Lions</a>, Webby 2024, 51M+ views.",
+    "talks":"<strong>20+ AI talks</strong>; technical guides, internal AI adoption and mentorship of engineers and early-career data scientists.",
+    "campaign_links":[["Credits","https://www.oneclub.org/awards/theoneshow/-award/52383/without-consent-a-message-from-ella/"],["Cannes Lions","https://www.telekom.com/en/newsroom/latest-updates/media-information/2024/6/cannes-lions"],["Webby","https://winners.webbyawards.com/2024/video/performance-craft/best-use-of-ai/281855/telekom--without-consent--a-message-from-ella"]],
+    "other_title":"Further engineering & research experience",
+    "other_roles":[
+      {"role":"Senior AI Engineer","company":"FunCorp","date":"Apr — Jun 2025","text":"LLM humor-generation R&D: paper review, training-data collection/generation and fine-tuning; reasoning models and MCP tool use."},
+      {"role":"Research Intern · NLP","company":"JetBrains Research","date":"Feb — Sep 2020","text":"PPLM: replaced loops with vectorized tensor operations, improving execution speed by 70% over baseline. Adapted controlled generation to GPT-2 and real-time chat."},
+      {"role":"Gameplay Programmer","company":"Saber Interactive","date":"Apr — Sep 2019","text":"Gameplay logic; collaboration with animation, audio and game-design teams."},
+      {"role":"Data Analyst","company":"Gazprom Neft","date":"Nov 2018 — Feb 2019","text":"Multivariate data analysis, dimensionality reduction and regression."},
+      {"role":"Data Scientist & Unity Developer","company":"Self-driving car startup","date":"Sep — Nov 2018","text":"Unity simulator, video-based obstacle detection and road segmentation."},
+      {"role":"Python Developer","company":"Nissan Manufacturing Rus","date":"Jun 2017 — May 2018","text":"VIN-plate OCR and control algorithms for autonomous warehouse carts."}
+    ],
+    "research":"Academic projects: transformer-based RecSys; <a href=\"https://github.com/denisleonov/image_captioning\">vision encoder + GPT-2 captioning</a>; transformer-based style transfer. <a href=\"https://github.com/denisleonov/pplm_chatbot\">PPLM chatbot</a>.",
+    "stack_title":"Technical foundation",
+    "stack":"Python, SQL, PyTorch, FastAPI, Pydantic, AsyncIO · Transformers, Diffusers, vLLM, LoRA, RAG, MCP · Two-tower retrieval, learning-to-rank, CatBoost, DCN, FT-Transformer · ClickHouse, Qdrant, Dragonfly, S3, Docker, Kubernetes, CI/CD · Voice cloning, voice aging, TTS, Whisper, Piper, Unity",
+    "education_title":"Education & languages",
+    "education":[
+      {"title":"HSE University · MSc, 2022","text":"Machine Learning and Data Analysis."},
+      {"title":"Peter the Great St. Petersburg Polytechnic University · Master’s studies, 2018–2019","text":"Machine Learning and Robotics; incomplete, no degree awarded."},
+      {"title":"Peter the Great St. Petersburg Polytechnic University · BSc, 2018","text":"Applied Mathematics and Mechanics; thesis on a neural-network vehicle controller."}
+    ],
+    "languages":"Russian — native · English — B2: technical discussions, international meetings and business correspondence.",
+    "updated_label":"Updated 28 October 2026",
+    "footer":"AI product strategy · Technical leadership · Multimodal AI"
+  },
+  "ru": {
+    "name":"Денис Леонов",
+    "headline":"AI Product & Technical Lead",
+    "eyebrow":"AI-продукты · Техническое лидерство · Мультимодальные системы",
+    "summary":"Веду AI-продукты от задачи пользователя и выбора технологии до запуска и измеримого результата. Соединяю <strong>продуктовую стратегию, руководство командой и собственную разработку</strong>: рекомендательные системы, генеративные инструменты и LLM-агенты. <strong>8+ лет</strong> в разработке ПО, прикладном ML и техническом руководстве; команды <strong>до 20 человек</strong>; внедрение AI <strong>примерно в 15 департаментах и игровых студиях</strong>.",
+    "summary_pdf":"Веду AI-продукты от задачи пользователя и стратегии до запуска и измеримого результата. Соединяю <strong>продуктовую стратегию, руководство командой и собственную разработку</strong>: RecSys, генеративный AI и LLM-агенты. <strong>8+ лет</strong> в разработке ПО, ML и техническом руководстве; команды <strong>до 20 человек</strong>; внедрение AI <strong>в ~15 департаментах/студиях</strong>.",
+    "location":"Тбилиси, Грузия · Удалённая работа по всему миру · Готов к релокации",
+    "contract":"Трудоустройство или B2B · Английский B2",
+    "download":"Скачать резюме",
+    "email_cta":"Связаться",
+    "skip":"Перейти к опыту",
+    "nav":[["impact","Результаты"],["expertise","Компетенции"],["experience","Опыт"],["multimodal","Мультимодальный AI"],["projects","Проекты"]],
+    "impact_title":"Ключевые результаты",
+    "metrics":[
+      {"value":"+60%","label":"Watch time","note":"A/B-тест относительно базовой выдачи"},
+      {"value":"+60%","label":"Скорость работы художников","note":"Внутренние генеративные инструменты"},
+      {"value":"−70%","label":"Время локализации","note":"Перевод и адаптация текстов под страну"},
+      {"value":"20","label":"Размер команды на пике","note":"ML, разработка, DevOps и дизайн"}
+    ],
+    "modalities_line":"Текст · Изображения · Видео · Аудио / Голос · 3D",
+    "modalities_line_label":"Мультимодальный опыт",
+    "expertise_title":"Что я привношу в AI-продукт",
+    "expertise_pdf_title":"Ключевые компетенции",
+    "competencies":[
+      {"title":"AI-стратегия и запуск продуктов","text":"Потребности пользователей, стратегия продукта, технический backlog, анализ рынка и конкурентов, прототипирование и путь от MVP до запуска. Внутренние продукты и клиентские B2B-проекты.","pdf_title":"AI-продукты","pdf":"Задачи пользователей, стратегия, анализ рынка, backlog, прототипирование и запуск."},
+      {"title":"Управление командами и ресурсами","text":"Кросс-функциональные команды до 20 человек: найм, оценка работы, кадровые решения и распределение ресурсов. Координация внедрения AI примерно в 15 департаментах и студиях.","pdf_title":"Руководство","pdf":"Команды до 20 человек; найм, оценка, кадровые решения, ресурсы и координация."},
+      {"title":"AI-архитектура и собственная разработка","text":"Сам реализую ключевые части системы: исследование и обучение моделей, retrieval/ranking, LLM/RAG-приложения, backend, инференс и автоматическое переобучение.","pdf_title":"AI-архитектура","pdf":"RecSys, LLM/RAG, обучение моделей, backend, инференс и переобучение."},
+      {"title":"Агентные системы и процессы разработки","text":"MCP-инструменты, координатор/специалисты/проверка, постоянное состояние, память и контекст, Git worktrees, передача задач и проверка результатов. Единые настройки ролей и Skills для coding-клиентов.","pdf_title":"AI-агенты","pdf":"MCP, роли, память и контекст, состояние, Git worktrees, передача задач и проверки."},
+      {"title":"Продуктовые решения на основе данных","text":"A/B-тесты, поведенческая аналитика и сравнение процессов по учёту рабочего времени. Оценка внешних AI-инструментов под задачи пользователей и выбор между готовым и собственным решением.","pdf_title":"Продуктовые метрики","pdf":"A/B-тесты, поведенческая аналитика, учёт времени и выбор технологий."},
+      {"title":"Международная работа и внедрение AI","text":"Технические обсуждения и оценка решений на английском с международными командами, Google Cloud, AWS, Layer AI и Scenario. 20+ докладов по AI; обучение и наставничество инженеров.","pdf_title":"Международная работа","pdf":"Технические обсуждения на английском, оценка решений, 20+ докладов."}
+    ],
+    "experience_title":"Ключевой продуктовый и руководящий опыт",
+    "experience_note":"Суммарно 8 лет 1 месяц работы · пересечения учтены один раз · октябрь 2026",
+    "roles":[
+      {
+        "company":"Платформа коротких видео · NDA","role":"Lead ML Engineer","date":"Сентябрь 2025 — настоящее время",
+        "context":"Персонализация, аналитика и ML в production",
+        "outcome":"Запуск за 4 месяца · +60% watch time в A/B-тесте",
+        "bullets":[
+          "<strong>Самостоятельно разработал и запустил всю рекомендательную систему за 4 месяца.</strong> В A/B-тесте watch time вырос <strong>на 60%</strong>, доля досмотра — <strong>на 20 процентных пунктов</strong> относительно базового алгоритма; длительность рекомендованных медиа выросла вдвое.",
+          "Отвечаю за полный ML-цикл: анализ и подготовку данных, исследование retrieval/ranker, обучение, инференс, cold start, автоматическое переобучение, версионирование и выпуск моделей. Срез данных: <strong>54,6 млн событий, 396 тыс. пользователей и 3 млн медиа</strong>.",
+          "Создал <strong>MCP-сервис для ClickHouse и LLM-агента для аналитики и дашбордов</strong>. Разработка легла в основу системы, которой пользуются аналитики всей компании. Также реализовал семантический поиск контента и выявление ботов/фрода по поведению.",
+          "Консультирую инженеров разных команд по ML/LLM и организовал <strong>работу AI-агентов над ML- и backend-разработкой</strong>: декомпозицию задач, сохранение контекста, передачу работы и проверку результатов."
+        ],
+        "pdf_bullets":[
+          "<strong>Самостоятельно запустил всю рекомендательную систему за 4 месяца.</strong> A/B: <strong>+60% watch time, +20 п.п. досмотра</strong> к базовой выдаче; длительность медиа выросла вдвое. Полный цикл: данные, retrieval/ranking, обучение, инференс и переобучение. Срез: 54,6 млн событий / 396 тыс. пользователей / 3 млн медиа.",
+          "Создал <strong>ClickHouse MCP и LLM-агента аналитики/дашбордов</strong> — основу системы для аналитиков компании; семантический поиск и выявление ботов/фрода. Консультирую инженеров, внедрил AI-агентов в ML/backend-разработку."
+        ],
+        "stack":"Python · PyTorch · CatBoost · ClickHouse · Dragonfly · Qdrant · Docker · Kubernetes · CI/CD"
+      },
+      {
+        "company":"MY.GAMES","role":"AI Architect & Lead ML Engineer","date":"Март 2023 — декабрь 2024",
+        "context":"AI-стратегия и внедрение в игровом холдинге",
+        "outcome":"Несколько сотен пользователей · +60% к скорости работы художников · −70% времени локализации",
+        "bullets":[
+          "<strong>Определял AI-стратегию вместе с топ-менеджментом</strong>, руководил <strong>AI-командой из 5 человек</strong> и координировал внедрение <strong>примерно в 15 департаментах и игровых студиях</strong>. Работал напрямую с художниками, переводчиками, инженерами и QA: выявлял задачи и определял приоритеты общих и специализированных инструментов.",
+          "Запустил <strong>продукт на Stable Diffusion для нескольких сотен сотрудников</strong>: скорость работы художников выросла <strong>на 60%</strong>. Самостоятельно реализовал обучение моделей под собственные стили через UI, inpainting и ControlNet.",
+          "Автоматизировал переводы и адаптацию текстов под разные страны, <strong>сократив время локализации на 70%</strong>. Оба результата измерял по учёту рабочего времени за несколько недель в сравнении с работой без AI.",
+          "Разработал <strong>MVP внутреннего LLM-ассистента</strong> на Qwen 2 / LLaMA с RAG и LoRA. Помогал командам осваивать AI: выступал с докладами, писал инструкции и консультировал по техническим вопросам.",
+          "<strong>На английском обсуждал требования и результаты тестирования</strong> с международными командами и представителями Google Cloud, AWS, Layer AI и Scenario. По итогам оценки выбрал собственные решения на серверах компании."
+        ],
+        "pdf_bullets":[
+          "<strong>Определял AI-стратегию с топ-менеджментом</strong>; руководил <strong>AI-командой из 5 человек</strong> и внедрением <strong>в ~15 департаментах/студиях</strong>. Превращал задачи пользователей в общие и специализированные инструменты.",
+          "Запустил Stable Diffusion-продукт для <strong>нескольких сотен пользователей</strong>: <strong>+60% к скорости работы художников</strong>. Перевод/локализация: <strong>−70% времени</strong>. Измерения — учёт рабочего времени за несколько недель. Обучение стилей, inpainting, ControlNet; MVP LLM-ассистента с RAG/LoRA.",
+          "Обсуждал требования и тестирование <strong>на английском</strong> с международными командами, <strong>Google Cloud, AWS, Layer AI и Scenario</strong>; выбрал собственные решения."
+        ],
+        "stack":"Stable Diffusion · ControlNet · Diffusers · Qwen / LLaMA · RAG · LoRA · Инфраструктура моделей"
+      },
+      {
+        "company":"Phygitalism","role":"CTO & Lead Data Scientist","date":"Август 2020 — ноябрь 2022",
+        "context":"Креативный AI-продукт и клиентская B2B-разработка",
+        "outcome":"От прототипа до закрытой беты · 30+ моделей · Команда до 20 человек",
+        "bullets":[
+          "Определял стратегию продукта, анализировал рынок и конкурентов; разработал <a href=\"https://phygital.plus/\">Phygital+</a> от прототипа до <strong>закрытой беты с первыми десятками пользователей</strong>. Платформа с нодовым интерфейсом объединяла <strong>30+ нейросетей</strong> для творческих задач.",
+          "Руководил <strong>кросс-функциональной командой до 20 человек</strong>: ML, разработка, DevOps и дизайн. Отвечал за найм, оценку работы, кадровые решения и ресурсы; внедрил Scrum и ClickUp.",
+          "Координировал разработку продукта и <strong>B2B-проекты от запроса клиента до сдачи</strong>: требования, ТЗ, объём работ и сроки. Сам разрабатывал ML-сервисы на PyTorch, backend и инфраструктуру.",
+          "Руководил прикладным R&D: <strong>апскейл изображений/видео, генерация текста/изображений/3D, deepfake и style transfer</strong>. Создал базу знаний по CV/NLP/Geometric DL и обучил <strong>3 стажёров</strong>, выросших до Junior+ Data Scientist."
+        ],
+        "pdf_bullets":[
+          "Определял стратегию и разработал <a href=\"https://phygital.plus/\">Phygital+</a> от прототипа до <strong>закрытой беты с первыми десятками пользователей</strong>: нодовая платформа с <strong>30+ нейросетями</strong>.",
+          "Руководил <strong>командой до 20 человек</strong>: найм, оценка, кадровые решения и ресурсы. Координировал продукт и <strong>B2B от запроса клиента до сдачи</strong>; разрабатывал ML/backend-инфраструктуру.",
+          "Руководил image/video/3D и GenAI R&D; внедрил Scrum/ClickUp, обучил <strong>3 стажёров до Junior+ DS</strong>."
+        ],
+        "stack":"PyTorch · Генеративный AI · Computer vision · Текст / изображения / видео / 3D · Backend и DevOps"
+      }
+    ],
+    "multimodal_title":"Мультимодальный AI на конкретных проектах",
+    "multimodal_intro":"Работаю с основными модальностями контента, а также с поведенческими и структурированными данными. Ниже отдельно показаны production, MVP и исследовательский опыт.",
+    "modalities":[
+      {"name":"Текст","stage":"Production · R&D","text":"LLM-аналитика, перевод и локализация, RAG-ассистенты, управляемая генерация GPT-2 с PPLM."},
+      {"name":"Изображения","stage":"Production · R&D","text":"Stable Diffusion, обучение собственных стилей, ControlNet, inpainting и OCR; учебные работы по image captioning."},
+      {"name":"Видео","stage":"Production · R&D","text":"Deepfake и состаривание лиц с выводом в 4K для международной кампании; R&D апскейла изображений и видео."},
+      {"name":"Аудио / Голос","stage":"R&D · MVP","text":"R&D в нескольких проектах: клонирование голоса, состаривание голоса и TTS. Локальный голосовой MVP с распознаванием Whisper, синтезом Piper и локальной LLM."},
+      {"name":"3D / Пространство","stage":"R&D · Симуляция","text":"Эксперименты с генерацией 3D, Unity-симулятор и компьютерное зрение для автономного вождения."},
+      {"name":"Поведенческие / Табличные данные","stage":"Production","text":"Рекомендации, выявление фрода, SQL/ClickHouse-аналитика и анализ качества моделей."}
+    ],
+    "agents_title":"AI-агенты как инженерная система",
+    "agents_intro":"Создал AIOS и использую её в текущей ML-работе и разработке собственных MVP.",
+    "agents_bullets":[
+      "<strong>Координация и выполнение:</strong> координатор, специализированные роли и отдельная роль проверки; декомпозиция, backlog, передача задач и изоляция через Git worktrees.",
+      "<strong>Состояние и надёжность:</strong> MCP-инструменты, версии задач в SQLite, журнал событий, контроль конфликтов и повторных обновлений, восстановление между сессиями. Закрытие задачи требует записи об успешной проверке.",
+      "<strong>Контекст и доступ:</strong> общие, доменные и проектные знания, зарегистрированные источники; генерация настроек ролей и Skills для Claude Code, Codex и Cursor."
+    ],
+    "agents_pdf":"Создал <strong>AIOS</strong> для ML/MVP: координатор, специалисты и роль проверки; Git worktrees, передача задач и общий контекст. MCP-инструменты, версии состояния в SQLite, журнал, контроль конфликтов, идемпотентность и восстановление сессий. Адаптеры ролей/Skills для Claude Code, Codex и Cursor.",
+    "projects_title":"Собственные AI-продукты",
+    "projects_note":"Founding AI Engineer · Единственный инженер · Разработка MVP · 2026",
+    "projects":[
+      {"title":"Персональная AI-система с локальным хранением данных","text":"Самостоятельно веду требования к продукту, архитектуру, Python-backend, нативное приложение для macOS и оценку качества. Память с текстовым/векторным поиском, учётом источников и времени; локальная LLM и голос. Типизированные действия с валидацией схем, разрешениями, защитой от повторного выполнения и журналом результатов; фоновые задачи с сохранением состояния.","pdf":"Самостоятельно: требования, Python-backend, macOS-приложение, память, гибридный поиск, локальная LLM и голос Whisper/Piper. Типизированные действия с валидацией, разрешениями и идемпотентностью; фоновые задачи с сохранением состояния."},
+      {"title":"AI-преподаватель математики · Конфиденциальный проект","text":"Самостоятельно собираю MVP: продуктовую архитектуру, backend и интерфейс. Фото и текст, гибридный RAG с reranking, база знаний и методическое руководство с контролем версий, память ученика и персонализированный контекст. Разрабатываю правила ответа при недостатке источников, оценку и проверку решений, диагностику и регрессионные проверки.","pdf":"Самостоятельно: архитектура, backend/UI, фото/текст, гибридный RAG/reranking, база знаний и методическое руководство, память ученика, персонализированный контекст, правила ответа при недостатке источников и проверка решений."}
+    ],
+    "recognition_title":"Кампания и передача опыта",
+    "campaign_title":"Deutsche Telekom · A Message from Ella / Without Consent",
+    "campaign_role":"Machine Learning Engineering Lead · Релиз кампании 3 июля 2023",
+    "campaign_text":"Разработал всю AI-часть: доработал open-source deepfake-пайплайн, добавил состаривание лиц и вывод видео в 4K. Участвовал в подборе актёров и напрямую работал с командой продакшена.",
+    "campaign_result":"Результаты кампании: <strong>2 Gold Lions на Cannes Lions 2024</strong>, Webby 2024 Best Use of AI и <strong>51+ млн просмотров</strong>.",
+    "campaign_pdf":"<strong>Deutsche Telekom — A Message from Ella.</strong> <a href=\"https://www.oneclub.org/awards/theoneshow/-award/52383/without-consent-a-message-from-ella/\">ML Engineering Lead</a>: вся AI-часть, состаривание, 4K deepfake, работа с актёрами/продакшеном. Кампания: <a href=\"https://www.telekom.com/en/newsroom/latest-updates/media-information/2024/6/cannes-lions\">2 Gold Lions</a>, Webby 2024, 51+ млн просмотров.",
+    "talks":"Выступил с <strong>20+ докладами по AI</strong>, писал технические инструкции, помогал внедрять AI и обучал инженеров и начинающих специалистов по Data Science.",
+    "campaign_links":[["Кредиты","https://www.oneclub.org/awards/theoneshow/-award/52383/without-consent-a-message-from-ella/"],["Cannes Lions","https://www.telekom.com/en/newsroom/latest-updates/media-information/2024/6/cannes-lions"],["Webby","https://winners.webbyawards.com/2024/video/performance-craft/best-use-of-ai/281855/telekom--without-consent--a-message-from-ella"]],
+    "other_title":"Другой инженерный и исследовательский опыт",
+    "other_roles":[
+      {"role":"Senior AI Engineer","company":"FunCorp","date":"Апрель — июнь 2025","text":"R&D генерации юмора на LLM: статьи, сбор/генерация обучающих данных, fine-tuning; reasoning-модели и MCP-инструменты."},
+      {"role":"Research Intern · NLP","company":"JetBrains Research","date":"Февраль — сентябрь 2020","text":"PPLM: заменил циклы тензорными вычислениями, повысив быстродействие на 70% относительно базовой реализации. Адаптировал управляемую генерацию под GPT-2 и чат в реальном времени."},
+      {"role":"Gameplay Programmer","company":"Saber Interactive","date":"Апрель — сентябрь 2019","text":"Игровая логика; взаимодействие с командами анимации, аудио и геймдизайна."},
+      {"role":"Data Analyst","company":"Газпром нефть","date":"Ноябрь 2018 — февраль 2019","text":"Анализ многомерных данных, снижение размерности и регрессия."},
+      {"role":"Data Scientist & Unity Developer","company":"Стартап беспилотных автомобилей","date":"Сентябрь — ноябрь 2018","text":"Unity-симулятор, детекция препятствий и сегментация дороги по видеопотоку."},
+      {"role":"Python Developer","company":"Nissan Manufacturing Rus","date":"Июнь 2017 — май 2018","text":"OCR VIN-табличек и алгоритмы управления автономными складскими тележками."}
+    ],
+    "research":"Учебные проекты: RecSys на трансформерах; <a href=\"https://github.com/denisleonov/image_captioning\">image captioning с vision encoder + GPT-2</a>; style transfer на трансформерах. <a href=\"https://github.com/denisleonov/pplm_chatbot\">PPLM-чатбот</a>.",
+    "stack_title":"Техническая база",
+    "stack":"Python, SQL, PyTorch, FastAPI, Pydantic, AsyncIO · Transformers, Diffusers, vLLM, LoRA, RAG, MCP · Two-tower retrieval, learning-to-rank, CatBoost, DCN, FT-Transformer · ClickHouse, Qdrant, Dragonfly, S3, Docker, Kubernetes, CI/CD · Клонирование/состаривание голоса, TTS, Whisper, Piper, Unity",
+    "education_title":"Образование и языки",
+    "education":[
+      {"title":"НИУ ВШЭ · Магистратура, 2022","text":"Машинное обучение и анализ данных."},
+      {"title":"СПбПУ Петра Великого · Магистратура, 2018–2019","text":"Машинное обучение и робототехника; незавершённая программа."},
+      {"title":"СПбПУ Петра Великого · Бакалавриат, 2018","text":"Прикладная математика и механика; диплом о нейросетевом регуляторе для управления автомобилем."}
+    ],
+    "languages":"Русский — родной · Английский — B2: технические обсуждения, международные встречи и деловая переписка.",
+    "updated_label":"Обновлено 28 октября 2026",
+    "footer":"AI-стратегия · Продуктовое и техническое руководство · Мультимодальный AI"
+  }
+}
